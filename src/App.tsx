@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import * as React from 'react'
+import { useState } from 'react'
 import { useSprings, animated, to as interpolate } from '@react-spring/web'
 import { useDrag } from 'react-use-gesture'
 
